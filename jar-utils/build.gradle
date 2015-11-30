@@ -54,7 +54,7 @@ task createPackage {
 
    doLast {
        copy {
-           from file("run.bat")
+           from file("jar-scanner.bat")
            into libsDir  
        }
    }    
